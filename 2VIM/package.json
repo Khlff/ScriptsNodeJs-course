@@ -1,0 +1,19 @@
+{
+  "name": "second_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "interpr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "line-reader": "^0.4.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

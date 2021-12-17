@@ -1,0 +1,58 @@
+input 127
+input 128
+factorial 127 191
+factorial 128 192
+nod 127 128 193
+output 191
+output 192
+output 193
+exit
+
+input (100)
+input (101)
+
+compare (100) 0 (106)
+if (106) 1000
+terminate
+final
+if (106) 1010
+output (101)
+quit
+final
+
+compare (101) 0 (106)
+if (106) 1000
+terminate
+final
+if (106) 1010
+output (100)
+quit
+final
+
+compare (100) (101) (102)
+if (102) 1000
+assign (105) (101)
+assign (101) (100)
+assign (100) (105)
+final
+
+if (102) 1010
+optput (100)
+quit
+final
+
+mark
+subtract (100) (101) (103)
+compare (101) (103) (104)
+if (104) 1111
+assign (100) (101)
+assign (101) (103)
+final
+if (104) 1000
+assign (100) (103)
+final
+if (104) 1010
+output (103)
+quit
+final
+goto

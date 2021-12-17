@@ -1,0 +1,18 @@
+{
+  "name": "first_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "escape.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "console-read-write": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
