@@ -84,7 +84,7 @@ function CountPolishNotation(inputExpression, variables) {
 }
 
 function main() {
-    let inputExpression = "a/(m+a)+k/i+c))))"
+    let inputExpression = "a/(m+a)+k/i+c"
     let polishExpression = ReverseToPolishNotation(inputExpression)
     console.log(polishExpression)
 

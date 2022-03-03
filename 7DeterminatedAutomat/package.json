@@ -1,0 +1,11 @@
+{
+  "name": "7determinatedaut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "det_aut.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

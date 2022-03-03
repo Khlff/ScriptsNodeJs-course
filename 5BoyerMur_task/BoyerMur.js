@@ -24,12 +24,13 @@ function boyerMurSearch(inputString, findString, dict, f) {
 }
 
 function main() {
-    let findString = "ста"
+    let findString = "стаа"
     let inputString = "стаставаыфафаыста"
     let dict = new Map()
     let lenOfInpString = findString.length
     for (let m = 0; m < lenOfInpString; m++)
         dict.set(findString[m], lenOfInpString - m)
+    console.log(dict)
     let f = inputString.length
     boyerMurSearch(inputString, findString, dict, f)
 }
